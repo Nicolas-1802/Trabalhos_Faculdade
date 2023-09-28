@@ -11,14 +11,14 @@ int main()
     int NC;
     char TC, Pisc;
 
-    cout << "Insira o tipo de construção,";
+    cout << "Insira o tipo de construÃ§Ã£o,";
     cout << "\nDigite 'M' para madeira,";
     cout << "\nDigite 'A' para alvenaria,";
-    cout << "\nDigite 'P' para pré-moldado:" << endl;
+    cout << "\nDigite 'P' para prÃ©-moldado:" << endl;
     cin >> TC;
-    cout << "Digite a área da casa e número de comodos: " << endl;
+    cout << "Digite a Ã¡rea da casa e nÃºmero de comodos: " << endl;
     cin >> m2 >> NC;
-    cout << "Vai ter piscina? Digite 'S' para sim e 'N' para não: " << endl;
+    cout << "Vai ter piscina? Digite 'S' para sim e 'N' para nÃ£o: " << endl;
     cin >> Pisc;
 
     if(TC == 'M' || TC == 'm'){
@@ -45,7 +45,7 @@ int main()
 
     }
 
-    cout << "O custo da obra será de " << Custo << "reais" << endl;
+    cout << "O custo da obra serÃ¡ de " << Custo << "reais" << endl;
 
 
     return 0;
